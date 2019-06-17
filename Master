@@ -1,0 +1,23 @@
+[
+  '|', 
+  
+  ('warehouse_id', '=', False),
+  
+  '|',
+  
+  (
+    'warehouse_id.
+      company_id',
+        '=',
+          False),
+          
+  ('warehouse_id.company_id',
+    'child_of',
+      [user.company_id.id])
+      
+  ]
+  
+  
+  
+  
+  
