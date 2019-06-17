@@ -17,7 +17,24 @@
       
   ]
   
-  
+============================================================
+Var = partner_id
+[
+                '|',
+                    ('partner_id','=',False),
+                    ('partner_id','=',user.partner_id.id)
+                ]
+                
+============================================================
+
+Var = assigned_to
+[
+                '|',
+                    ('assigned_to','=',False),
+                    ('assigned_to','=',user.assigned_to.id)
+                ]
+                
+                
   
   
   
